@@ -1,0 +1,55 @@
+Python:
+
+#comparacoes: ==  !=  >  <  >=  <=
+#comparacoes: and / or
+
+
+variavel:
+
+'palavra' - 'str'
+numeros -  'int'
+numeros - 'float' quebrados
+
+input - entrada pergunta
+
+criar lista - []
+
+------------------------------------------------------------------------------------------------
+
+EXERCICIO: Faça um formulario que pergunte
+o nome, cpf, endereco, idade, altura e telefone
+e imprima isso em um relatorio organizado
+'''
+
+nome = input('Escreva seu nome: ')
+cpf = input('Escreva seu CPF: ')
+endereco = input('Escreva seu Endereço: ')
+idade = input('Escreva sua idade: ')
+altura = input('Escreva sua altura: ')
+telefone = input('Escreva seu telefone: ')
+
+print('Nome:', nome)
+print('CPF:', cpf)
+print('Endereço:', endereco)
+print('Idade:', idade, 'anos')
+print('Altura:', altura, 'metros')
+print('Telefone:', telefone)
+
+-------------------------------------------------------------------------------------------------
+
+EXERCICIO:
+Faça um programa que pergunte a idade, o peso e a altura
+de uma pessoa e decide se ela está apta a ser do Exercito
+Para entrar no exercito é preciso ter mais de 18 anos
+pesar mais ou igual  60 kilos
+e medir mais ou igual 1,70 metros
+'''
+
+idade = int(input('Escreva sua idade: '))
+peso = float(input('Escreva seu peso: '))
+altura = float(input('Escreva sua altura: '))
+
+if idade >= 18 and peso >= 60 and altura >= 1.70:
+    print('Voce esta apto a servir o exercito')
+else:
+    print('Voce nao esta apto')
